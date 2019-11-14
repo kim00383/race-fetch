@@ -1,0 +1,67 @@
+*{
+    padding:1.1rem;
+}
+p{
+    font-size: 2rem;
+    font-weight: 900;
+    color: crimson;
+    text-align: center;
+    transition:transform 2s, border 1s;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+p:hover{
+    transform:scale(1.05);
+    border:5px solid #baec2f;
+}
+#output{
+    border:1px solid black;
+}
+
+p.pCharater:nth-child(even){
+    background-color: #e1e1e1;
+}
+p.pCharater:nth-child(odd){
+    background-color: rgb(170, 247, 177);
+}
+p.pActor:nth-child(even){
+    background-color: #f5d0d0;
+}
+p.pActor:nth-child(odd){
+    background-color: rgb(170, 209, 241);
+}
+span.spanCharaterid{
+    color:black;
+    font:bold 18px serif;
+    flex: 1;
+}
+span.spanCharatercharacter{
+    font:italic bold 27px serif;
+    flex: 3;
+   
+}
+span.spanCharateractor{
+    color:#b12daa;
+    font:oblique 20px;
+    flex: 2;
+}
+
+span.spanActorid{
+    color:rgb(39, 28, 28);
+    font:bold 18px serif;
+    flex: 1;
+
+}
+span.spanActorfirst_name{
+    color: rgb(36, 129, 76);
+    font:italic  26px serif;
+    text-decoration: underline;
+    flex: 3;
+}
+span.spanActorlast_name{
+    color: rgb(28, 27, 85);
+    font:oblique 20px;
+    flex: 2;
+}
